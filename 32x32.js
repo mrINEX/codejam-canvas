@@ -1,10 +1,9 @@
 var canvas = document.getElementById("myCanvas"), 
-context = canvas.getContext("2d");
+    context = canvas.getContext("2d");
 
+let cellSize = 32;
 var img = new Image();
 img.src = 'data/image.png';
-
-img.onload = function() {
+img.onload = function(){
     context.drawImage(img, 0, 0);
 };
-var imageData = context.getImageData(0,0, 256, 256);
