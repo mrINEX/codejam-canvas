@@ -7,4 +7,4 @@ img.src = 'data/image.png';
 img.onload = function() {
     context.drawImage(img, 0, 0);
 };
-var imageData = context.getImageData(0,0, 256, 256);
+var imageData = context.getImageData(0,0, 512, 512);
