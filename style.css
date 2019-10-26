@@ -1,0 +1,33 @@
+body {
+    background-color: #E5E5E5;
+}
+main {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    max-width: 90%;
+    margin: auto;
+    background: rgb(245, 244, 244);
+    text-align: center;
+}
+
+.appbar {
+    display: inline-flex;
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+}
+.appbar p {
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 40px;
+}
+button {
+    width: 20%;
+    height: 10%;
+}
+.select {
+    margin: 5%;
+}
+span {
+    margin: 5%;
+}

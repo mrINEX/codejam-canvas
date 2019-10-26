@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>4x4 canvas</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <canvas id="myCanvas" width="512" height="512">
-        Your browser doesn't support canvas!
-    </canvas>
-    <script src='4x4.js'>
-    </script>
+    <span>Desktop - CodeJam Task</span>
+    <main>
+        <div class='appbar'>
+            <p>CodeJam - Pollete</p>
+        </div>
+        <div class="select">
+                <a href='index.html'><button id="img">Image</button></a>
+                <a href='4x4.html'><button id="x4">4x4</button></a>
+                <a href='32x32.html'><button id="x32">32x32</button></a>
+        </div>
+        <canvas id="myCanvas" width="512" height="512">Your browser doesn't support canvas!</canvas>
+    </main>
+    <script src='4x4.js'></script>
 </body>
 </html>
