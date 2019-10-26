@@ -1,5 +1,6 @@
 body {
     background-color: #E5E5E5;
+    min-width: 600px;
 }
 main {
     position: relative;
@@ -21,13 +22,30 @@ main {
     font-size: larger;
     margin-left: 40px;
 }
-button {
-    width: 20%;
-    height: 10%;
-}
 .select {
-    margin: 5%;
+    text-align: center;
+    position: absolute;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+    background-color: rgb(227, 229, 233);
 }
+#a {
+    left: 86%;
+    top: 10%;
+}
+#b {
+    top: 10%;
+    left: 2%;
+}
+#c {
+    left: 2%;
+    top: 38%;
+}
+
 span {
     margin: 5%;
+}
+#myCanvas {
+    margin: 30px;
 }

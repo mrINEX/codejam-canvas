@@ -13,10 +13,30 @@
         <div class='appbar'>
             <p>CodeJam - Pollete</p>
         </div>
-        <div class="select">
-                <a href='index.html'><button id="img">Image</button></a>
-                <a href='4x4.html'><button id="x4">4x4</button></a>
-                <a href='32x32.html'><button id="x32">32x32</button></a>
+        <div id="a" class="select">
+            <div><a id="img" onclick="showImg()">Image</a></div>
+            <div><a id="x4" onclick="showx4()">4x4</a></div>
+            <div><a id="x32" onclick="showx32()">32x32</a></div>
+        </div>
+        <div id="b" class="select">
+            <div>
+                <div>Paint bucket</div>
+                <div>Choose color</div>
+            </div>
+            <div>
+                <div>Move</div>
+                <div>Transform</div>
+            </div>
+        </div>
+        <div id="c" class="select">
+            <div>
+                <div>Current color</div>
+                <div>Prev color</div>
+            </div>
+            <div>
+                <div>red</div>
+                <div>blue</div>
+            </div>
         </div>
         <canvas id="myCanvas" width="512" height="512">Your browser doesn't support canvas!</canvas>
     </main>

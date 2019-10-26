@@ -8,8 +8,10 @@ const map4 = [
 const canvas = document.getElementById("myCanvas"); 
 const context = canvas.getContext("2d");
 
-width = map4[0].length; 
-height = map4.length;
+width = window.innerWidth;
+height = window.innerHeight;
+//width = map4[0].length; 
+//height = map4.length;
 var cellSize = 128;
 
 canvas.width = 4 * cellSize;
