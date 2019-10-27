@@ -1,6 +1,10 @@
 
 
 function showImg(){
+    const x4 = document.getElementById('x4')
+    x4.style.backgroundColor = 'rgb(227, 229, 233)'
+    const x32 = document.getElementById('x32')
+    x32.style.backgroundColor = 'rgb(227, 229, 233)'
     //let xi = document.getElementById('img');
     var canvas = document.getElementById("myCanvas"), 
     context = canvas.getContext("2d");
@@ -11,8 +15,15 @@ function showImg(){
     img.onload = function() {
     context.drawImage(img, 0, 0, 512, 512);
     };
+    //backgraund click
+    const i = document.getElementById('img')
+    i.style.backgroundColor = 'grey'
 }
 function showx4(){
+    const i = document.getElementById('img')
+    i.style.backgroundColor = 'rgb(227, 229, 233)'
+    const x32 = document.getElementById('x32')
+    x32.style.backgroundColor = 'rgb(227, 229, 233)'
     //let x4 = document.getElementById('x4');
     const map4 = [
         ["#00BCD4", "#FFEB3B","#FFEB3B","#00BCD4"],
@@ -37,8 +48,15 @@ function showx4(){
             context.fillRect(col * cellSize, row * cellSize, cellSize, cellSize);
         }
     }
+
+    const x4 = document.getElementById('x4')
+    x4.style.backgroundColor = 'grey'
 }
 function showx32(){
+    const i = document.getElementById('img')
+    i.style.backgroundColor = 'rgb(227, 229, 233)'
+    const x4 = document.getElementById('x4')
+    x4.style.backgroundColor = 'rgb(227, 229, 233)'
     //let x32 = document.getElementById('x32');
     let map = [
         [
@@ -6268,6 +6286,8 @@ function showx32(){
               context.fillRect(col * cellSize, row * cellSize, cellSize, cellSize);
           }
       }
+      const x32 = document.getElementById('x32')
+      x32.style.backgroundColor = 'grey'
 }
 
 /*

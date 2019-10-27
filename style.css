@@ -6,10 +6,20 @@ main {
     position: relative;
     width: 1440px;
     height: 900px;
-    max-width: 90%;
+    max-width: 95%;
     margin: auto;
     background: rgb(245, 244, 244);
-    text-align: center;
+}
+#cj {
+    font-weight: bold;
+    margin: 18px auto;
+}
+#menu {
+    height: 100%;
+    margin: 7px;
+}
+#dots {
+    margin: 15px 15px 15px 73%;
 }
 
 .appbar {
@@ -21,17 +31,43 @@ main {
     font-weight: bold;
     font-size: larger;
     margin-left: 40px;
+    
 }
 .select {
-    text-align: center;
+    display: inline-block;
     position: absolute;
-    width: 100px;
+    width: 140px;
+    height: 123px;
     cursor: pointer;
     box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
     background-color: rgb(227, 229, 233);
 }
+.icon {
+    display: flex;
+    margin: 7px;
+}
+img {
+    margin: -3px 6px;
+}
+.round {
+    height: 8px;
+    width: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 5px
+}
+.cansv {
+    padding: 10px 20px 10px 30px;
+    margin: 2px;
+}
+#red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+}
 #a {
-    left: 86%;
+    left: 84%;
     top: 10%;
 }
 #b {
@@ -44,8 +80,8 @@ main {
 }
 
 span {
-    margin: 5%;
+    margin: 3%;
 }
 #myCanvas {
-    margin: 30px;
+    margin: 30px 20%;
 }

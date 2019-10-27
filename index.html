@@ -11,31 +11,33 @@
     <span>Desktop - CodeJam Task</span>
     <main>
         <div class='appbar'>
-            <p>CodeJam - Pollete</p>
+            <img id="menu" src="sheets/nav icon.png">
+            <div id='cj'>CodeJam - Pollete</div>
+            <img id="dots" src="sheets/menu icon.png" height="100%">
         </div>
         <div id="a" class="select">
-            <div><a id="img" onclick="showImg()">Image</a></div>
-            <div><a id="x4" onclick="showx4()">4x4</a></div>
-            <div><a id="x32" onclick="showx32()">32x32</a></div>
+            <div class="cansv" id="img" onclick="showImg()"><a>Image</a></div>
+            <div class="cansv" id="x4" onclick="showx4()"><a>4x4</a></div>
+            <div class="cansv" id="x32" onclick="showx32()"><a>32x32</a></div>
         </div>
         <div id="b" class="select">
-            <div>
-                <div>Paint bucket</div>
-                <div>Choose color</div>
+            <div class='fifty'>
+                <div class="icon"><img src="sheets/icon-sh.png">Paint bucket</div>
+                <div class="icon"><img src="sheets/icon-upload.png">Choose color</div>
             </div>
-            <div>
-                <div>Move</div>
-                <div>Transform</div>
+            <div class='fifty'>
+                <div class="icon"><img src="sheets/icon-copy.png">Move</div>
+                <div class="icon"><img src="sheets/icon-share.png">Transform</div>
             </div>
         </div>
         <div id="c" class="select">
             <div>
-                <div>Current color</div>
-                <div>Prev color</div>
+                <div class="icon"><div class="round" id="empty"></div>Current color</div>
+                <div class="icon"><div class="round" id="empty"></div>Prev color</div>
             </div>
             <div>
-                <div>red</div>
-                <div>blue</div>
+                <div class="icon"><div class="round" id="red"></div>red</div>
+                <div class="icon"><div class="round" id="blue"></div>blue</div>
             </div>
         </div>
         <canvas id="myCanvas" width="512" height="512">Your browser doesn't support canvas!</canvas>
